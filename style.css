@@ -22,6 +22,10 @@ body {
   color: white;
   justify-content: center;
   background-color: black;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  flex-direction: column;
 }
 .li-navbar:hover {
   background-color: blue;
@@ -34,6 +38,14 @@ body {
   text-decoration: none;
 }
 /* End Navbar */
+/* conten mulai */
+.href-content {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 60%;
+  height: 30%;
+}
 .container-content {
   justify-content: right;
   display: flex;
@@ -81,4 +93,12 @@ body {
   width: 20%;
   height: 10pxpx;
   text-align: center;
+}
+.img-1:hover {
+  transition: 0.5s ease-in-out;
+}
+.img-1 {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
